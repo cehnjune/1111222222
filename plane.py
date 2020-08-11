@@ -153,7 +153,6 @@ class EnemyBullet(object):
         self.screen = screen
         self.image = pygame.image.load('./feiji/enemybullet.png')
         pass
-
     def display(self):
         self.screen.blit(self.image, (self.x, self.y))
         pass
